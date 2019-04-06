@@ -1,0 +1,44 @@
+!SESSION 2019-04-06 23:15:20.294 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_AU
+Framework arguments:  -keyring /Users/nicholas/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -data /Users/nicholas/Desktop/CG2028/CG2028Assignment/CG2028Assignment -keyring /Users/nicholas/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-06 23:15:24.362
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2019-04-06 23:18:13.912 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_AU
+Framework arguments:  -keyring /Users/nicholas/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -data /Users/nicholas/Desktop/CG2028/CG2028Assignment/CG2028Assignment -keyring /Users/nicholas/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-06 23:18:18.008
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-06 23:19:38.288
+!MESSAGE Indexed 'CG2028AsmtS2AY201819' (2 sources, 8 headers) in 0.28 sec: 480 declarations; 305 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-06 23:20:28.982
+!MESSAGE Indexed 'LPC1769_CMSIS_MCU_blinky' (2 sources, 15 headers) in 0.45 sec: 1,439 declarations; 2,002 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-06 23:20:28.986
+!MESSAGE Indexed 'LPC1769_asm_basic' (0 sources, 0 headers) in 0.00 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-06 23:20:28.989
+!MESSAGE Indexed 'LPC1769_asm_blinky' (0 sources, 0 headers) in 0.00 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-06 23:20:29.012
+!MESSAGE Indexed 'LPC1769_plainC_blinky' (2 sources, 0 headers) in 0.02 sec: 148 declarations; 155 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-06 23:20:29.221
+!MESSAGE Indexed 'Lib_CMSISv1p30_LPC17xx' (2 sources, 12 headers) in 0.21 sec: 1,194 declarations; 2,096 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-06 23:20:29.602
+!MESSAGE Indexed 'Lib_EaBaseBoard' (13 sources, 35 headers) in 0.37 sec: 2,493 declarations; 5,097 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-06 23:20:30.330
+!MESSAGE Indexed 'Lib_MCU' (21 sources, 34 headers) in 0.72 sec: 3,941 declarations; 19,375 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)

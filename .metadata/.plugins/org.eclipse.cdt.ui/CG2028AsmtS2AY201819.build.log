@@ -1,0 +1,31 @@
+19:14:50 **** Build of configuration Debug for project CG2028AsmtS2AY201819 ****
+make all 
+Building file: ../src/cr_startup_lpc17.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__REDLIB__ -D__USE_CMSIS=CMSISv1p30_LPC17xx -I"/Users/nicholas/Desktop/CG2028/CG2028Assignment/Lib_CMSISv1p30_LPC17xx/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -Wa,-ahlnds=cr_startup_lpc17.asm -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/cr_startup_lpc17.d" -MT"src/cr_startup_lpc17.d" -o"src/cr_startup_lpc17.o" "../src/cr_startup_lpc17.c"
+Finished building: ../src/cr_startup_lpc17.c
+ 
+Building file: ../src/fir.s
+Invoking: MCU Assembler
+arm-none-eabi-gcc -c -x assembler-with-cpp -DDEBUG -D__CODE_RED -D__REDLIB__ -g3 -mcpu=cortex-m3 -mthumb -o"src/fir.o" "../src/fir.s"
+Finished building: ../src/fir.s
+ 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__REDLIB__ -D__USE_CMSIS=CMSISv1p30_LPC17xx -I"/Users/nicholas/Desktop/CG2028/CG2028Assignment/Lib_CMSISv1p30_LPC17xx/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -Wa,-ahlnds=main.asm -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/main.d" -MT"src/main.d" -o"src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: CG2028AsmtS2AY201819.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/Users/nicholas/Desktop/CG2028/CG2028Assignment/Lib_CMSISv1p30_LPC17xx/Debug" -Xlinker --gc-sections -Xlinker -Map=CG2028AsmtS2AY201819.map -mcpu=cortex-m3 -mthumb -T "CG2028AsmtS2AY201819_Debug.ld" -o"CG2028AsmtS2AY201819.axf"  ./src/cr_startup_lpc17.o ./src/fir.o ./src/main.o   -lCMSISv1p30_LPC17xx
+Finished building target: CG2028AsmtS2AY201819.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size CG2028AsmtS2AY201819.axf; # arm-none-eabi-objcopy -O ihex CG2028AsmtS2AY201819.axf CG2028AsmtS2AY201819.hex ;
+   text	   data	    bss	    dec	    hex	filename
+  12208	      0	    376	  12584	   3128	CG2028AsmtS2AY201819.axf
+ 
+
+19:14:50 Build Finished (took 327ms)
+

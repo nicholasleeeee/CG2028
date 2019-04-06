@@ -5,6 +5,6 @@
 		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 	</section>
 	<section name="com.crt.quickstart.views.wizards.examples.QSExampleSelectionPage">
-		<item value="/Users/nicholas/Desktop/CG2028/Test" key="dirname"/>
+		<item value="/Users/nicholas/Desktop/CG2028" key="dirname"/>
 	</section>
 </section>

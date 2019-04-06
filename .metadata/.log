@@ -197,3 +197,1172 @@ Binding(ALT+CTRL+H,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.cdt.ui.cEditorScope,,cocoa,system)
+!SESSION 2019-04-06 23:10:04.807 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_AU
+Framework arguments:  -keyring /Users/nicholas/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/nicholas/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-06 23:10:10.804
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.crt.advproject 4 -1 2019-04-06 23:14:28.548
+!MESSAGE /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_CMSIS_MCU_blinky/Debug/LPC1769_CMSIS_MCU_blinky_Debug_mem.ld (No such file or directory)
+
+!STACK 0
+java.io.FileNotFoundException: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_CMSIS_MCU_blinky/Debug/LPC1769_CMSIS_MCU_blinky_Debug_mem.ld (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at com.crt.advproject.linker.LinkMemoryTemplate.process(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.createMemInclude(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.create(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.buildScripts(Unknown Source)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.generateLinkerScript(Unknown Source)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.regenerateMakefiles(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+	at com.crt.ctrlcenter.launch.BuildUtils$3.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.crt.advproject 4 4 2019-04-06 23:14:28.553
+!MESSAGE /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_CMSIS_MCU_blinky/Debug/LPC1769_CMSIS_MCU_blinky_Debug_mem.ld (No such file or directory)
+
+!STACK 0
+java.io.FileNotFoundException: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_CMSIS_MCU_blinky/Debug/LPC1769_CMSIS_MCU_blinky_Debug_mem.ld (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at com.crt.advproject.linker.LinkMemoryTemplate.process(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.createMemInclude(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.create(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.buildScripts(Unknown Source)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.generateLinkerScript(Unknown Source)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.regenerateMakefiles(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+	at com.crt.ctrlcenter.launch.BuildUtils$3.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at java.io.FileOutputStream.open(Native Method)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at com.crt.advproject.linker.LinkMemoryTemplate.process(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at com.crt.advproject.linker.CreateLinkerScript2.createMemInclude(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at com.crt.advproject.linker.CreateLinkerScript2.create(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at com.crt.advproject.linker.CreateLinkerScript2.buildScripts(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at com.crt.advproject.custom.CRTGnuMakefileGenerator.generateLinkerScript(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at com.crt.advproject.custom.CRTGnuMakefileGenerator.regenerateMakefiles(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at com.crt.ctrlcenter.launch.BuildUtils$3.run(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:28.553
+!MESSAGE 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.debug.core 4 125 2019-04-06 23:14:29.942
+!MESSAGE Error logged from Debug Core: 
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_plainC_blinky/LPC1769_plainC_blinky Release.launch.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:377)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1352)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:453)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:614)
+	at org.eclipse.debug.internal.core.LaunchManager.isValid(LaunchManager.java:2081)
+	at org.eclipse.debug.internal.core.LaunchManager.verifyConfigurations(LaunchManager.java:2474)
+	at org.eclipse.debug.internal.core.LaunchManager.getAllLaunchConfigurations(LaunchManager.java:1118)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationDeleted(LaunchManager.java:2160)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:385)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2283)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:395)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1530)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2353)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:40)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.io.FileNotFoundException: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_plainC_blinky/LPC1769_plainC_blinky Release.launch (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:368)
+	... 22 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 271 2019-04-06 23:14:29.943
+!MESSAGE File not found: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_plainC_blinky/LPC1769_plainC_blinky Release.launch.
+!STACK 0
+java.io.FileNotFoundException: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_plainC_blinky/LPC1769_plainC_blinky Release.launch (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:368)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1352)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:453)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:614)
+	at org.eclipse.debug.internal.core.LaunchManager.isValid(LaunchManager.java:2081)
+	at org.eclipse.debug.internal.core.LaunchManager.verifyConfigurations(LaunchManager.java:2474)
+	at org.eclipse.debug.internal.core.LaunchManager.getAllLaunchConfigurations(LaunchManager.java:1118)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationDeleted(LaunchManager.java:2160)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:385)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2283)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:395)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1530)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2353)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:40)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.debug.core 4 125 2019-04-06 23:14:29.944
+!MESSAGE Error logged from Debug Core: 
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_plainC_blinky/LPC1769_plainC_blinky Debug.launch.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:377)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1352)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:453)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:614)
+	at org.eclipse.debug.internal.core.LaunchManager.isValid(LaunchManager.java:2081)
+	at org.eclipse.debug.internal.core.LaunchManager.verifyConfigurations(LaunchManager.java:2474)
+	at org.eclipse.debug.internal.core.LaunchManager.getAllLaunchConfigurations(LaunchManager.java:1118)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationDeleted(LaunchManager.java:2160)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:385)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2283)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:395)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1530)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2353)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:40)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.io.FileNotFoundException: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_plainC_blinky/LPC1769_plainC_blinky Debug.launch (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:368)
+	... 22 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 271 2019-04-06 23:14:29.944
+!MESSAGE File not found: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_plainC_blinky/LPC1769_plainC_blinky Debug.launch.
+!STACK 0
+java.io.FileNotFoundException: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_plainC_blinky/LPC1769_plainC_blinky Debug.launch (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:368)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1352)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:453)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:614)
+	at org.eclipse.debug.internal.core.LaunchManager.isValid(LaunchManager.java:2081)
+	at org.eclipse.debug.internal.core.LaunchManager.verifyConfigurations(LaunchManager.java:2474)
+	at org.eclipse.debug.internal.core.LaunchManager.getAllLaunchConfigurations(LaunchManager.java:1118)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationDeleted(LaunchManager.java:2160)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:385)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2283)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:395)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1530)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2353)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:40)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.debug.core 4 125 2019-04-06 23:14:29.944
+!MESSAGE Error logged from Debug Core: 
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_blinky/LPC1769_asm_blinky Release.launch.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:377)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1352)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:453)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:614)
+	at org.eclipse.debug.internal.core.LaunchManager.isValid(LaunchManager.java:2081)
+	at org.eclipse.debug.internal.core.LaunchManager.verifyConfigurations(LaunchManager.java:2474)
+	at org.eclipse.debug.internal.core.LaunchManager.getAllLaunchConfigurations(LaunchManager.java:1118)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationDeleted(LaunchManager.java:2160)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:385)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2283)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:395)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1530)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2353)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:40)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.io.FileNotFoundException: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_blinky/LPC1769_asm_blinky Release.launch (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:368)
+	... 22 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 271 2019-04-06 23:14:29.945
+!MESSAGE File not found: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_blinky/LPC1769_asm_blinky Release.launch.
+!STACK 0
+java.io.FileNotFoundException: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_blinky/LPC1769_asm_blinky Release.launch (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:368)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1352)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:453)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:614)
+	at org.eclipse.debug.internal.core.LaunchManager.isValid(LaunchManager.java:2081)
+	at org.eclipse.debug.internal.core.LaunchManager.verifyConfigurations(LaunchManager.java:2474)
+	at org.eclipse.debug.internal.core.LaunchManager.getAllLaunchConfigurations(LaunchManager.java:1118)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationDeleted(LaunchManager.java:2160)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:385)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2283)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:395)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1530)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2353)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:40)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.debug.core 4 125 2019-04-06 23:14:29.945
+!MESSAGE Error logged from Debug Core: 
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_blinky/LPC1769_asm_blinky Debug.launch.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:377)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1352)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:453)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:614)
+	at org.eclipse.debug.internal.core.LaunchManager.isValid(LaunchManager.java:2081)
+	at org.eclipse.debug.internal.core.LaunchManager.verifyConfigurations(LaunchManager.java:2474)
+	at org.eclipse.debug.internal.core.LaunchManager.getAllLaunchConfigurations(LaunchManager.java:1118)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationDeleted(LaunchManager.java:2160)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:385)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2283)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:395)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1530)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2353)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:40)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.io.FileNotFoundException: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_blinky/LPC1769_asm_blinky Debug.launch (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:368)
+	... 22 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 271 2019-04-06 23:14:29.945
+!MESSAGE File not found: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_blinky/LPC1769_asm_blinky Debug.launch.
+!STACK 0
+java.io.FileNotFoundException: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_blinky/LPC1769_asm_blinky Debug.launch (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:368)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1352)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:453)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:614)
+	at org.eclipse.debug.internal.core.LaunchManager.isValid(LaunchManager.java:2081)
+	at org.eclipse.debug.internal.core.LaunchManager.verifyConfigurations(LaunchManager.java:2474)
+	at org.eclipse.debug.internal.core.LaunchManager.getAllLaunchConfigurations(LaunchManager.java:1118)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationDeleted(LaunchManager.java:2160)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:385)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2283)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:395)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1530)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2353)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:40)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.debug.core 4 125 2019-04-06 23:14:29.946
+!MESSAGE Error logged from Debug Core: 
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_basic/LPC1769_asm_basic Release.launch.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:377)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1352)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:453)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:614)
+	at org.eclipse.debug.internal.core.LaunchManager.isValid(LaunchManager.java:2081)
+	at org.eclipse.debug.internal.core.LaunchManager.verifyConfigurations(LaunchManager.java:2474)
+	at org.eclipse.debug.internal.core.LaunchManager.getAllLaunchConfigurations(LaunchManager.java:1118)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationDeleted(LaunchManager.java:2160)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:385)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2283)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:395)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1530)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2353)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:40)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.io.FileNotFoundException: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_basic/LPC1769_asm_basic Release.launch (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:368)
+	... 22 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 271 2019-04-06 23:14:29.946
+!MESSAGE File not found: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_basic/LPC1769_asm_basic Release.launch.
+!STACK 0
+java.io.FileNotFoundException: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_basic/LPC1769_asm_basic Release.launch (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:368)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1352)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:453)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:614)
+	at org.eclipse.debug.internal.core.LaunchManager.isValid(LaunchManager.java:2081)
+	at org.eclipse.debug.internal.core.LaunchManager.verifyConfigurations(LaunchManager.java:2474)
+	at org.eclipse.debug.internal.core.LaunchManager.getAllLaunchConfigurations(LaunchManager.java:1118)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationDeleted(LaunchManager.java:2160)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:385)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2283)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:395)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1530)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2353)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:40)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.debug.core 4 125 2019-04-06 23:14:29.947
+!MESSAGE Error logged from Debug Core: 
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_basic/LPC1769_asm_basic Debug.launch.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:377)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1352)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:453)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:614)
+	at org.eclipse.debug.internal.core.LaunchManager.isValid(LaunchManager.java:2081)
+	at org.eclipse.debug.internal.core.LaunchManager.verifyConfigurations(LaunchManager.java:2474)
+	at org.eclipse.debug.internal.core.LaunchManager.getAllLaunchConfigurations(LaunchManager.java:1118)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationDeleted(LaunchManager.java:2160)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:385)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2283)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:395)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1530)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2353)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:40)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.io.FileNotFoundException: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_basic/LPC1769_asm_basic Debug.launch (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:368)
+	... 22 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 271 2019-04-06 23:14:29.947
+!MESSAGE File not found: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_basic/LPC1769_asm_basic Debug.launch.
+!STACK 0
+java.io.FileNotFoundException: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_basic/LPC1769_asm_basic Debug.launch (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:368)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1352)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:453)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:614)
+	at org.eclipse.debug.internal.core.LaunchManager.isValid(LaunchManager.java:2081)
+	at org.eclipse.debug.internal.core.LaunchManager.verifyConfigurations(LaunchManager.java:2474)
+	at org.eclipse.debug.internal.core.LaunchManager.getAllLaunchConfigurations(LaunchManager.java:1118)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationDeleted(LaunchManager.java:2160)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:385)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2283)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:395)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1530)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2353)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:40)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.crt.advproject 4 -1 2019-04-06 23:14:36.046
+!MESSAGE /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_basic/Debug/LPC1769_asm_basic_Debug_mem.ld (No such file or directory)
+
+!STACK 0
+java.io.FileNotFoundException: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_basic/Debug/LPC1769_asm_basic_Debug_mem.ld (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at com.crt.advproject.linker.LinkMemoryTemplate.process(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.createMemInclude(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.create(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.buildScripts(Unknown Source)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.generateLinkerScript(Unknown Source)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.regenerateMakefiles(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+	at com.crt.ctrlcenter.launch.BuildUtils$3.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.crt.advproject 4 4 2019-04-06 23:14:36.047
+!MESSAGE /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_basic/Debug/LPC1769_asm_basic_Debug_mem.ld (No such file or directory)
+
+!STACK 0
+java.io.FileNotFoundException: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_basic/Debug/LPC1769_asm_basic_Debug_mem.ld (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at com.crt.advproject.linker.LinkMemoryTemplate.process(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.createMemInclude(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.create(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.buildScripts(Unknown Source)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.generateLinkerScript(Unknown Source)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.regenerateMakefiles(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+	at com.crt.ctrlcenter.launch.BuildUtils$3.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at java.io.FileOutputStream.open(Native Method)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at com.crt.advproject.linker.LinkMemoryTemplate.process(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at com.crt.advproject.linker.CreateLinkerScript2.createMemInclude(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at com.crt.advproject.linker.CreateLinkerScript2.create(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at com.crt.advproject.linker.CreateLinkerScript2.buildScripts(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at com.crt.advproject.custom.CRTGnuMakefileGenerator.generateLinkerScript(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at com.crt.advproject.custom.CRTGnuMakefileGenerator.regenerateMakefiles(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at com.crt.ctrlcenter.launch.BuildUtils$3.run(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:36.047
+!MESSAGE 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.crt.advproject 4 -1 2019-04-06 23:14:39.050
+!MESSAGE /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_blinky/Debug/LPC1769_asm_blinky_Debug_mem.ld (No such file or directory)
+
+!STACK 0
+java.io.FileNotFoundException: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_blinky/Debug/LPC1769_asm_blinky_Debug_mem.ld (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at com.crt.advproject.linker.LinkMemoryTemplate.process(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.createMemInclude(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.create(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.buildScripts(Unknown Source)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.generateLinkerScript(Unknown Source)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.regenerateMakefiles(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+	at com.crt.ctrlcenter.launch.BuildUtils$3.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.crt.advproject 4 4 2019-04-06 23:14:39.051
+!MESSAGE /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_blinky/Debug/LPC1769_asm_blinky_Debug_mem.ld (No such file or directory)
+
+!STACK 0
+java.io.FileNotFoundException: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_asm_blinky/Debug/LPC1769_asm_blinky_Debug_mem.ld (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at com.crt.advproject.linker.LinkMemoryTemplate.process(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.createMemInclude(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.create(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.buildScripts(Unknown Source)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.generateLinkerScript(Unknown Source)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.regenerateMakefiles(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+	at com.crt.ctrlcenter.launch.BuildUtils$3.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at java.io.FileOutputStream.open(Native Method)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at com.crt.advproject.linker.LinkMemoryTemplate.process(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at com.crt.advproject.linker.CreateLinkerScript2.createMemInclude(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at com.crt.advproject.linker.CreateLinkerScript2.create(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at com.crt.advproject.linker.CreateLinkerScript2.buildScripts(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at com.crt.advproject.custom.CRTGnuMakefileGenerator.generateLinkerScript(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at com.crt.advproject.custom.CRTGnuMakefileGenerator.regenerateMakefiles(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at com.crt.ctrlcenter.launch.BuildUtils$3.run(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:39.051
+!MESSAGE 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.crt.advproject 4 -1 2019-04-06 23:14:41.381
+!MESSAGE /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_plainC_blinky/Debug/LPC1769_plainC_blinky_Debug_mem.ld (No such file or directory)
+
+!STACK 0
+java.io.FileNotFoundException: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_plainC_blinky/Debug/LPC1769_plainC_blinky_Debug_mem.ld (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at com.crt.advproject.linker.LinkMemoryTemplate.process(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.createMemInclude(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.create(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.buildScripts(Unknown Source)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.generateLinkerScript(Unknown Source)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.regenerateMakefiles(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+	at com.crt.ctrlcenter.launch.BuildUtils$3.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.crt.advproject 4 4 2019-04-06 23:14:41.381
+!MESSAGE /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_plainC_blinky/Debug/LPC1769_plainC_blinky_Debug_mem.ld (No such file or directory)
+
+!STACK 0
+java.io.FileNotFoundException: /Users/nicholas/Desktop/CG2028/CG2028Assignment/LPC1769_plainC_blinky/Debug/LPC1769_plainC_blinky_Debug_mem.ld (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at com.crt.advproject.linker.LinkMemoryTemplate.process(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.createMemInclude(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.create(Unknown Source)
+	at com.crt.advproject.linker.CreateLinkerScript2.buildScripts(Unknown Source)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.generateLinkerScript(Unknown Source)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.regenerateMakefiles(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+	at com.crt.ctrlcenter.launch.BuildUtils$3.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.381
+!MESSAGE 	at java.io.FileOutputStream.open(Native Method)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.381
+!MESSAGE 	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.381
+!MESSAGE 	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.381
+!MESSAGE 	at com.crt.advproject.linker.LinkMemoryTemplate.process(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.381
+!MESSAGE 	at com.crt.advproject.linker.CreateLinkerScript2.createMemInclude(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.381
+!MESSAGE 	at com.crt.advproject.linker.CreateLinkerScript2.create(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.381
+!MESSAGE 	at com.crt.advproject.linker.CreateLinkerScript2.buildScripts(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.381
+!MESSAGE 	at com.crt.advproject.custom.CRTGnuMakefileGenerator.generateLinkerScript(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.381
+!MESSAGE 	at com.crt.advproject.custom.CRTGnuMakefileGenerator.regenerateMakefiles(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.381
+!MESSAGE 	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.381
+!MESSAGE 	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.381
+!MESSAGE 	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.381
+!MESSAGE 	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.381
+!MESSAGE 	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.381
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.381
+!MESSAGE 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.381
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.381
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.381
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.382
+!MESSAGE 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.382
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.382
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.382
+!MESSAGE 	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.382
+!MESSAGE 	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.382
+!MESSAGE 	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.382
+!MESSAGE 	at com.crt.ctrlcenter.launch.BuildUtils$3.run(Unknown Source)
+!SUBENTRY 1 com.crt.advproject 4 0 2019-04-06 23:14:41.382
+!MESSAGE 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 2 2019-04-06 23:14:42.722
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/Lib_CMSISv1p30_LPC17xx/Debug/sources.mk' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:357)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:464)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.save(GnuMakefileGenerator.java:837)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.populateSourcesMakefile(GnuMakefileGenerator.java:1166)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.regenerateMakefiles(GnuMakefileGenerator.java:930)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.regenerateMakefiles(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+	at com.crt.ctrlcenter.launch.BuildUtils$3.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-04-06 23:14:42.723
+!MESSAGE Resource '/Lib_CMSISv1p30_LPC17xx/Debug/sources.mk' does not exist.
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-04-06 23:14:42.723
+!MESSAGE Resource '/Lib_CMSISv1p30_LPC17xx/Debug/sources.mk' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 2 2019-04-06 23:14:43.609
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/CG2028AsmtS2AY201819/Debug/sources.mk' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:357)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:464)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.save(GnuMakefileGenerator.java:837)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.populateSourcesMakefile(GnuMakefileGenerator.java:1166)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.regenerateMakefiles(GnuMakefileGenerator.java:930)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.regenerateMakefiles(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+	at com.crt.ctrlcenter.launch.BuildUtils$3.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-04-06 23:14:43.609
+!MESSAGE Resource '/CG2028AsmtS2AY201819/Debug/sources.mk' does not exist.
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-04-06 23:14:43.609
+!MESSAGE Resource '/CG2028AsmtS2AY201819/Debug/sources.mk' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 2 2019-04-06 23:14:44.417
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/Lib_MCU/Debug/sources.mk' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:357)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:464)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.save(GnuMakefileGenerator.java:837)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.populateSourcesMakefile(GnuMakefileGenerator.java:1166)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.regenerateMakefiles(GnuMakefileGenerator.java:930)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.regenerateMakefiles(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+	at com.crt.ctrlcenter.launch.BuildUtils$3.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-04-06 23:14:44.417
+!MESSAGE Resource '/Lib_MCU/Debug/sources.mk' does not exist.
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-04-06 23:14:44.417
+!MESSAGE Resource '/Lib_MCU/Debug/sources.mk' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 2 2019-04-06 23:14:45.196
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/Lib_EaBaseBoard/Debug/sources.mk' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:357)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:464)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.save(GnuMakefileGenerator.java:837)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.populateSourcesMakefile(GnuMakefileGenerator.java:1166)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.regenerateMakefiles(GnuMakefileGenerator.java:930)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.regenerateMakefiles(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+	at com.crt.ctrlcenter.launch.BuildUtils$3.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-04-06 23:14:45.196
+!MESSAGE Resource '/Lib_EaBaseBoard/Debug/sources.mk' does not exist.
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-04-06 23:14:45.196
+!MESSAGE Resource '/Lib_EaBaseBoard/Debug/sources.mk' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 75 2019-04-06 23:14:45.913
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.cdt.managedbuilder.core 4 75 2019-04-06 23:14:45.913
+!MESSAGE Errors running builder 'CDT Builder' on project 'Lib_CMSISv1p30_LPC17xx'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/Lib_CMSISv1p30_LPC17xx/Debug/sources.mk' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:357)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:464)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.save(GnuMakefileGenerator.java:837)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.populateSourcesMakefile(GnuMakefileGenerator.java:1166)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.regenerateMakefiles(GnuMakefileGenerator.java:930)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.regenerateMakefiles(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+	at com.crt.ctrlcenter.launch.BuildUtils$3.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2019-04-06 23:14:45.913
+!MESSAGE Resource '/Lib_CMSISv1p30_LPC17xx/Debug/sources.mk' does not exist.
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-04-06 23:14:45.913
+!MESSAGE Resource '/Lib_CMSISv1p30_LPC17xx/Debug/sources.mk' does not exist.
+!SUBENTRY 1 org.eclipse.cdt.managedbuilder.core 4 75 2019-04-06 23:14:45.913
+!MESSAGE Errors running builder 'CDT Builder' on project 'CG2028AsmtS2AY201819'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/CG2028AsmtS2AY201819/Debug/sources.mk' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:357)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:464)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.save(GnuMakefileGenerator.java:837)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.populateSourcesMakefile(GnuMakefileGenerator.java:1166)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.regenerateMakefiles(GnuMakefileGenerator.java:930)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.regenerateMakefiles(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+	at com.crt.ctrlcenter.launch.BuildUtils$3.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2019-04-06 23:14:45.913
+!MESSAGE Resource '/CG2028AsmtS2AY201819/Debug/sources.mk' does not exist.
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-04-06 23:14:45.913
+!MESSAGE Resource '/CG2028AsmtS2AY201819/Debug/sources.mk' does not exist.
+!SUBENTRY 1 org.eclipse.cdt.managedbuilder.core 4 75 2019-04-06 23:14:45.913
+!MESSAGE Errors running builder 'CDT Builder' on project 'Lib_MCU'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/Lib_MCU/Debug/sources.mk' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:357)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:464)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.save(GnuMakefileGenerator.java:837)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.populateSourcesMakefile(GnuMakefileGenerator.java:1166)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.regenerateMakefiles(GnuMakefileGenerator.java:930)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.regenerateMakefiles(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+	at com.crt.ctrlcenter.launch.BuildUtils$3.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2019-04-06 23:14:45.914
+!MESSAGE Resource '/Lib_MCU/Debug/sources.mk' does not exist.
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-04-06 23:14:45.914
+!MESSAGE Resource '/Lib_MCU/Debug/sources.mk' does not exist.
+!SUBENTRY 1 org.eclipse.cdt.managedbuilder.core 4 75 2019-04-06 23:14:45.914
+!MESSAGE Errors running builder 'CDT Builder' on project 'Lib_EaBaseBoard'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/Lib_EaBaseBoard/Debug/sources.mk' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:357)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:464)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.save(GnuMakefileGenerator.java:837)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.populateSourcesMakefile(GnuMakefileGenerator.java:1166)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.regenerateMakefiles(GnuMakefileGenerator.java:930)
+	at com.crt.advproject.custom.CRTGnuMakefileGenerator.regenerateMakefiles(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+	at com.crt.ctrlcenter.launch.BuildUtils$3.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2019-04-06 23:14:45.914
+!MESSAGE Resource '/Lib_EaBaseBoard/Debug/sources.mk' does not exist.
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-04-06 23:14:45.914
+!MESSAGE Resource '/Lib_EaBaseBoard/Debug/sources.mk' does not exist.
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-06 23:15:19.750
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2019-04-06 23:15:19.751
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-04-06 23:15:19.751
+!MESSAGE The project description file (.project) for 'CG2028AsmtS2AY201819' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-04-06 23:15:19.751
+!MESSAGE The project description file (.project) for 'LPC1769_CMSIS_MCU_blinky' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-04-06 23:15:19.751
+!MESSAGE The project description file (.project) for 'LPC1769_asm_basic' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-04-06 23:15:19.751
+!MESSAGE The project description file (.project) for 'LPC1769_asm_blinky' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-04-06 23:15:19.751
+!MESSAGE The project description file (.project) for 'LPC1769_plainC_blinky' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-04-06 23:15:19.751
+!MESSAGE The project description file (.project) for 'Lib_CMSISv1p30_LPC17xx' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-04-06 23:15:19.751
+!MESSAGE The project description file (.project) for 'Lib_EaBaseBoard' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-04-06 23:15:19.751
+!MESSAGE The project description file (.project) for 'Lib_MCU' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.

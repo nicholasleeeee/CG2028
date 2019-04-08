@@ -442,3 +442,48 @@ make: Nothing to be done for `all'.
 23:21:37 **** Build of configuration Debug for project Lib_EaBaseBoard ****
 make all 
 make: Nothing to be done for `all'.
+01:11:23 **** Build of configuration Debug for project LPC1769_CMSIS_MCU_blinky ****
+make all 
+Building target: LPC1769_CMSIS_MCU_blinky.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/Users/nicholas/Desktop/CG2028/CG2028Assignment/CG2028Assignment/Lib_CMSISv1p30_LPC17xx/Debug" -L"/Users/nicholas/Desktop/CG2028/CG2028Assignment/CG2028Assignment/Lib_MCU/Debug" -Xlinker -Map=LPC1769_CMSIS_MCU_blinky.map -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "LPC1769_CMSIS_MCU_blinky_Debug.ld" -o "LPC1769_CMSIS_MCU_blinky.axf"  ./src/cr_startup_lpc176x.o ./src/main.o   -lCMSISv1p30_LPC17xx -lLib_MCU
+/Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/bin/ld: cannot find -lCMSISv1p30_LPC17xx
+collect2: ld returned 1 exit status
+make: *** [LPC1769_CMSIS_MCU_blinky.axf] Error 1
+01:11:25 **** Build of configuration Debug for project LPC1769_asm_basic ****
+make all 
+make: Nothing to be done for `all'.
+01:11:26 **** Build of configuration Debug for project LPC1769_asm_blinky ****
+make all 
+make: Nothing to be done for `all'.
+01:11:27 **** Build of configuration Debug for project LPC1769_plainC_blinky ****
+make all 
+make: Nothing to be done for `all'.
+01:11:28 **** Build of configuration Debug for project Lib_CMSISv1p30_LPC17xx ****
+make all 
+make: Nothing to be done for `all'.
+01:11:29 **** Build of configuration Debug for project CG2028AsmtS2AY201819 ****
+make all 
+Building target: CG2028AsmtS2AY201819.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/Users/nicholas/Desktop/CG2028/CG2028Assignment/CG2028Assignment/Lib_CMSISv1p30_LPC17xx/Debug" -Xlinker --gc-sections -Xlinker -Map=CG2028AsmtS2AY201819.map -mcpu=cortex-m3 -mthumb -T "EE2024Assign1S2AY201516_Debug.ld" -o"CG2028AsmtS2AY201819.axf"  ./src/cr_startup_lpc17.o ./src/fir.o ./src/main.o   -lCMSISv1p30_LPC17xx
+/Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/bin/ld: cannot find -lCMSISv1p30_LPC17xx
+collect2: ld returned 1 exit status
+make: *** [CG2028AsmtS2AY201819.axf] Error 1
+01:11:30 **** Build of configuration Debug for project Lib_MCU ****
+make all 
+make: Nothing to be done for `all'.
+01:11:31 **** Build of configuration Debug for project Lib_EaBaseBoard ****
+make all 
+make: Nothing to be done for `all'.
+01:12:20 **** Incremental Build of configuration Debug for project Lib_CMSISv1p30_LPC17xx ****
+make all 
+make: Nothing to be done for `all'.
+01:12:21 **** Incremental Build of configuration Debug for project CG2028AsmtS2AY201819 ****
+make all 
+Building target: CG2028AsmtS2AY201819.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/Users/nicholas/Desktop/CG2028/CG2028Assignment/CG2028Assignment/Lib_CMSISv1p30_LPC17xx/Debug" -Xlinker --gc-sections -Xlinker -Map=CG2028AsmtS2AY201819.map -mcpu=cortex-m3 -mthumb -T "EE2024Assign1S2AY201516_Debug.ld" -o"CG2028AsmtS2AY201819.axf"  ./src/cr_startup_lpc17.o ./src/fir.o ./src/main.o   -lCMSISv1p30_LPC17xx
+/Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/bin/ld: cannot find -lCMSISv1p30_LPC17xx
+collect2: ld returned 1 exit status
+make: *** [CG2028AsmtS2AY201819.axf] Error 1

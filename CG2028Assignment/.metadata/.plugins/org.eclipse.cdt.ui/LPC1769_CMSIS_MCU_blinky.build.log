@@ -1,4 +1,4 @@
-23:21:29 **** Build of configuration Debug for project LPC1769_CMSIS_MCU_blinky ****
+01:11:23 **** Build of configuration Debug for project LPC1769_CMSIS_MCU_blinky ****
 make all 
 Building target: LPC1769_CMSIS_MCU_blinky.axf
 Invoking: MCU Linker
@@ -7,5 +7,5 @@ arm-none-eabi-gcc -nostdlib -L"/Users/nicholas/Desktop/CG2028/CG2028Assignment/C
 collect2: ld returned 1 exit status
 make: *** [LPC1769_CMSIS_MCU_blinky.axf] Error 1
 
-23:21:29 Build Finished (took 216ms)
+01:11:23 Build Finished (took 212ms)
 

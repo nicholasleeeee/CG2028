@@ -1,6 +1,6 @@
-23:21:36 **** Build of configuration Debug for project Lib_MCU ****
+01:11:30 **** Build of configuration Debug for project Lib_MCU ****
 make all 
 make: Nothing to be done for `all'.
 
-23:21:36 Build Finished (took 66ms)
+01:11:30 Build Finished (took 65ms)
 

@@ -5,4 +5,3 @@
 USER_OBJS :=
 
 LIBS := -lCMSISv1p30_LPC17xx -lLib_MCU
-

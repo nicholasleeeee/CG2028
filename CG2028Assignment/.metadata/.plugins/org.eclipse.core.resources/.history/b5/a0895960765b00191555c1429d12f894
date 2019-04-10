@@ -1,0 +1,70 @@
+ 	.syntax unified
+ 	.cpu cortex-m3
+ 	.thumb
+ 	.align 2
+ 	.global	fir
+ 	.thumb_func
+
+@ CG2028 Assignment, Sem 2, AY 2018/19
+@ (c) CG2028 Teaching Team, ECE NUS, 2019
+
+@Register map
+@R0 - N, returns y
+@R1 - b
+@R2 - x_n
+@R3 - y_n
+@R4 - b_store
+@R5 - j
+@R6 - 10000
+@R7 - x_store[0]
+@R8 - x_store[j-1]
+@R9 - x_store_temp
+
+fir:
+
+@ PUSH / save (only those) registers which are modified by your function
+	PUSH {R1-R10}
+
+@ parameter registers need not be saved.
+
+@ write asm function body here
+
+	LDR R4, [R1], #4 // Loads value of b into R4
+	MUL R3, R2, R4 //y_n = x_n*b[0];
+	MOV R5, R0 // load N into R5
+	LDR R7, =x_store //To load R7 with x_store value
+
+LOOP: //for(j=0; j<N; j++)
+	SUBS R5, #1 // To increment j and set flag
+	LDR R4, [R1], #4 // Loads value of b into R4
+	LDR R9, [R7], #4 // Temp storage for x_store
+	MLA R3, R4, R9, R3 //y_n= y_n + b[j+1]*x_store[j];
+	BNE LOOP // End loop if j equal to N
+
+	MOV R5, R0
+	SUB R5, #1
+	SUB R7, #4
+
+LOOP2: //for(j=N-1; j>0; j--)
+	SUBS R5, #1 // For j to minus one and set flag
+	LDR R8, [R7, #-4] // Load x_store[j] into x_temp
+	STR R8, [R7] //	x_store[j] = x_store[j-1];
+	SUB R7, #4
+	BNE LOOP2
+
+	LDR R7, =x_store
+	STR R2, [R7] //x_store[0] = x_n;
+	MOVW R6, #10000
+	SDIV R3, R6 //y_n = y_n / 10000; scaling down
+
+@ prepare value to return (y_n) to C program in R0
+	MOV R0, R3 //return y_n;
+@ POP / restore original register values. DO NOT save or restore R0. Why?
+	POP {R1-R10}
+@ return to C program
+		BX	LR
+
+@label: .word value
+.equ N_MAX, 10
+@.lcomm label num_bytes
+.lcomm x_store, 40

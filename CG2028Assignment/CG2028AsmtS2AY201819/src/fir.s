@@ -15,9 +15,10 @@
 @R3 - y_n
 @R4 - b_store
 @R5 - j
-@R6 - counter
-@R7 - x_store
-@R8 - x_temp
+@R6 - 10000
+@R7 - x_store[0]
+@R8 - x_store[j-1]
+@R9 - x_store_temp
 
 fir:
 
@@ -28,44 +29,99 @@ fir:
 
 @ write asm function body here
 
-	//LDR R4, [R1], #4 // Loads value of b into R4
+	LDR R4, [R1], #4 // Loads value of b into R4
+	// Binary 0000 01 0 0 1 0 0 1 0001 0100 0000 00000100
+	// Hex 4914004
+
 	MUL R3, R2, R4 //y_n = x_n*b[0];
-	LDR R5, j_value
-	CMP R5, R0
+	// Binary 0000 00 0 0000 0 0000 0011 0100 000 1 0010
+	// Hex 3412
+
+	MOV R5, R0 // Move N into J
+	// Binary 0000 00 0 1101 0 0000 0101 0000 0000 0000
+	// Hex 1A05000
+
+	LDR R7, =x_store // R7 takes all of x_store values
 
 LOOP: //for(j=0; j<N; j++)
-	ADDS R5, #1
-	LDR R4, [R1, #4]! // Loads value of b into R4
-	MLA R3, R4, R7, R3 //y_n= y_n + b[j+1]*x_store[j];
-	LDR R7, [R2], #4
-	BLT LOOP
+	SUBS R5, #1 // To increment j and set flag
+	// Binary 0000 00 1 0010 1 0000 0101 0000 0000 0001
+	// Hex 2505001
 
-	CMP R5, #0
+	LDR R4, [R1], #4 // Loads value of b into R4
+	// Binary 0000 01 0 0 1 0 0 1 0001 0100 0000 0000 0100
+	// Hex 4914004
+
+	LDR R9, [R7], #4 // Temp storage for x_store
+	// Binary 0000 01 0 0 1 0 0 1 0111 1001 0000 0000 0100
+	// Hex 4979004
+
+	MLA R3, R4, R9, R3 //y_n= y_n + b[j+1]*x_store[j];
+	// Binary 0000 00 0 0001 0 0011 0011 1001 0000 1 0100
+	// Hex 467214
+
+	BNE LOOP // End loop if j equal to N
+	// Binary 0001 10  00 0 000 000000000000 0001 0001
+	// Hex 18000011
+
+	MOV R5, R0 // Move N into J
+	// Binary 0000 00 0 1101 0 0000 0101 0000 0000 0000
+	// Hex 1A05000
+
+	SUB R5, #1 // R5 value minus 1 because in next loop we want N-1
+	// Binary 0000 00 1 0010 0 0000 0101 0000 0000 0001
+	// Hex 2405001
+
+	SUB R7, #4 // R7 address minus 4 because in last LDR moved ahead by 4
+	// Binary 0000 00 1 0010 0 0000 0111 0000 0000 0100
+	// Hex 2407004
 
 LOOP2: //for(j=N-1; j>0; j--)
-	SUBS R5, #1
-	LDR R8, [R7, #-4]
-	MOV R7, R8 //	x_store[j] = x_store[j-1];
-	LDR R7, [R7, #4] // error here
-	BGT LOOP2
+	SUBS R5, #1 // For j to minus one and set flag
+	// Binary 0000 00 1 0010 1 0000 0101 0000 0000 0001
+	// Hex 2505001
 
+	LDR R8, [R7, #-4] // Load x_store[j] into x_temp
+	// Binary 0000 01 0 1 0 0 0 1 0111 1000 0000 0000 0100
+	// Hex 5178004
 
-	LDR R2, [R7, #-12] //x_store[0] = x_n;
-	//LDR R7, R2
+	STR R8, [R7] //	x_store[j] = x_store[j-1];
+	// Binary 0000 01 0 0 0 0 0 0 0111 1000 0000 0000 0000
+	// Hex 4078000
 
-	//MUL R3, R3, #0.00001	//y_n = y_n / 10000; // scaling down
+	SUB R7, #4 // R7 address minus 4 because in last LDR moved ahead by 4
+	// Binary 0000 00 1 0010 0 0000 0111 0000 0000 0100
+	// Hex 2407004
+
+	BNE LOOP2
+	// Binary 0001 10  00 0 000 000000000000 0001 0010
+	// Hex 18000012
+
+	LDR R7, =x_store // R7 takes all of x_store values
+
+	STR R2, [R7] //x_store[0] = x_n;
+	// Binary 0000 01 0 1 0 0 0 0 0111 0010 0000 0000 0000
+	// Hex 5072000
+
+	MOV R6, #100 // R6 with value 100 for division
+	// Binary 0000 00 0 1101 0 0000 0110 0000 0110 0100
+	// Hex 1A06064
+
+	SDIV R3, R6 //y_n = y_n / 100; scaling down
+	SDIV R3, R6 //y_n = y_n / 100; scaling down
 
 @ prepare value to return (y_n) to C program in R0
 
 	MOV R0, R3 //return y_n;
-@ POP / restore original register values. DO NOT save or restore R0. Why?
+	// Binary 0000 00 0 1101 0 0011 0000 0000 0000 0000
+	// Hex 1A30000
 
+@ POP / restore original register values. DO NOT save or restore R0. Why?
+	POP {R1-R10}
 @ return to C program
-		BX	LR
+	BX	LR
 
 @label: .word value
-j_value:
-		.word 0
 .equ N_MAX, 10
 @.lcomm label num_bytes
-.lcomm x_store, 100
+.lcomm x_store, 40

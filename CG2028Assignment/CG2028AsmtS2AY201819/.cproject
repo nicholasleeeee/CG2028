@@ -54,7 +54,7 @@
 								<option id="com.crt.advproject.link.gcc.hdrlib.1197072111" name="Use C library" superClass="com.crt.advproject.link.gcc.hdrlib" value="com.crt.advproject.gcc.link.hdrlib.codered.semihost" valueType="enumerated"/>
 								<option id="com.crt.advproject.link.arch.911300161" name="Architecture" superClass="com.crt.advproject.link.arch" value="com.crt.advproject.link.target.cm3" valueType="enumerated"/>
 								<option id="com.crt.advproject.link.thumb.33277581" name="Thumb mode" superClass="com.crt.advproject.link.thumb" value="true" valueType="boolean"/>
-								<option id="com.crt.advproject.link.script.828216252" name="Linker script" superClass="com.crt.advproject.link.script" value="&quot;EE2024Assign1S2AY201516_Debug.ld&quot;" valueType="string"/>
+								<option id="com.crt.advproject.link.script.828216252" name="Linker script" superClass="com.crt.advproject.link.script" value="&quot;CG2028AsmtS2AY201819_Debug.ld&quot;" valueType="string"/>
 								<option id="gnu.c.link.option.nostdlibs.14680416" name="No startup or default libs (-nostdlib)" superClass="gnu.c.link.option.nostdlibs" value="true" valueType="boolean"/>
 								<option id="gnu.c.link.option.other.2092475135" name="Other options (-Xlinker [option])" superClass="gnu.c.link.option.other" valueType="stringList">
 									<listOptionValue builtIn="false" value="--gc-sections"/>
@@ -131,7 +131,7 @@
 								<option id="com.crt.advproject.link.gcc.hdrlib.614103251" name="Use C library" superClass="com.crt.advproject.link.gcc.hdrlib" value="com.crt.advproject.gcc.link.hdrlib.codered.semihost" valueType="enumerated"/>
 								<option id="com.crt.advproject.link.arch.615971547" name="Architecture" superClass="com.crt.advproject.link.arch" value="com.crt.advproject.link.target.cm3" valueType="enumerated"/>
 								<option id="com.crt.advproject.link.thumb.288841847" name="Thumb mode" superClass="com.crt.advproject.link.thumb" value="true" valueType="boolean"/>
-								<option id="com.crt.advproject.link.script.420208497" name="Linker script" superClass="com.crt.advproject.link.script" value="&quot;EE2024Assign1S2AY201516_Release.ld&quot;" valueType="string"/>
+								<option id="com.crt.advproject.link.script.420208497" name="Linker script" superClass="com.crt.advproject.link.script" value="&quot;CG2028AsmtS2AY201819_Release.ld&quot;" valueType="string"/>
 								<option id="gnu.c.link.option.nostdlibs.699427090" name="No startup or default libs (-nostdlib)" superClass="gnu.c.link.option.nostdlibs" value="true" valueType="boolean"/>
 								<option id="gnu.c.link.option.other.2030708877" name="Other options (-Xlinker [option])" superClass="gnu.c.link.option.other" valueType="stringList">
 									<listOptionValue builtIn="false" value="--gc-sections"/>

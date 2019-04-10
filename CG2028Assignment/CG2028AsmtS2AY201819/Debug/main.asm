@@ -363,16 +363,16 @@
  297              	.Letext0:
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 main.c
-/var/folders/n0/zrmy2hd15h59p6j456l6vd6h0000gn/T//cclV2j1v.s:19     .rodata:0000000000000000 $d
-/var/folders/n0/zrmy2hd15h59p6j456l6vd6h0000gn/T//cclV2j1v.s:20     .rodata:0000000000000000 .LC1
-/var/folders/n0/zrmy2hd15h59p6j456l6vd6h0000gn/T//cclV2j1v.s:23     .rodata:000000000000001c .LC2
-/var/folders/n0/zrmy2hd15h59p6j456l6vd6h0000gn/T//cclV2j1v.s:26     .rodata:0000000000000038 .LC0
-/var/folders/n0/zrmy2hd15h59p6j456l6vd6h0000gn/T//cclV2j1v.s:40     .text.main:0000000000000000 $t
-/var/folders/n0/zrmy2hd15h59p6j456l6vd6h0000gn/T//cclV2j1v.s:45     .text.main:0000000000000000 main
-/var/folders/n0/zrmy2hd15h59p6j456l6vd6h0000gn/T//cclV2j1v.s:186    .text.fir_c:0000000000000000 fir_c
-/var/folders/n0/zrmy2hd15h59p6j456l6vd6h0000gn/T//cclV2j1v.s:181    .text.fir_c:0000000000000000 $t
-/var/folders/n0/zrmy2hd15h59p6j456l6vd6h0000gn/T//cclV2j1v.s:294    .bss:0000000000000000 x_store.3830
-/var/folders/n0/zrmy2hd15h59p6j456l6vd6h0000gn/T//cclV2j1v.s:293    .bss:0000000000000000 $d
+/var/folders/n0/zrmy2hd15h59p6j456l6vd6h0000gn/T//ccEmFkxI.s:19     .rodata:0000000000000000 $d
+/var/folders/n0/zrmy2hd15h59p6j456l6vd6h0000gn/T//ccEmFkxI.s:20     .rodata:0000000000000000 .LC1
+/var/folders/n0/zrmy2hd15h59p6j456l6vd6h0000gn/T//ccEmFkxI.s:23     .rodata:000000000000001c .LC2
+/var/folders/n0/zrmy2hd15h59p6j456l6vd6h0000gn/T//ccEmFkxI.s:26     .rodata:0000000000000038 .LC0
+/var/folders/n0/zrmy2hd15h59p6j456l6vd6h0000gn/T//ccEmFkxI.s:40     .text.main:0000000000000000 $t
+/var/folders/n0/zrmy2hd15h59p6j456l6vd6h0000gn/T//ccEmFkxI.s:45     .text.main:0000000000000000 main
+/var/folders/n0/zrmy2hd15h59p6j456l6vd6h0000gn/T//ccEmFkxI.s:186    .text.fir_c:0000000000000000 fir_c
+/var/folders/n0/zrmy2hd15h59p6j456l6vd6h0000gn/T//ccEmFkxI.s:181    .text.fir_c:0000000000000000 $t
+/var/folders/n0/zrmy2hd15h59p6j456l6vd6h0000gn/T//ccEmFkxI.s:294    .bss:0000000000000000 x_store.3830
+/var/folders/n0/zrmy2hd15h59p6j456l6vd6h0000gn/T//ccEmFkxI.s:293    .bss:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS

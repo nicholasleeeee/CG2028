@@ -1,14 +1,8 @@
 /*
  * GENERATED FILE - DO NOT EDIT
- * (c) Code Red Technologies Ltd, 2008-2019
- * (c) NXP Semiconductors 2013-2019
- * Generated linker script file for LPC1769
- * Created from LibIncTemplate.ld (LPCXpresso v6.1 (4 [Build 194] [2014-01-15] ))
- * By LPCXpresso v6.1.4 [Build 194] [2014-01-15]  on Sun Apr 07 01:11:25 GMT+08:00 2019
- */
+ * (C) Code Red Technologies Ltd, 2008-9
+ * Generated linker script library include file for Redlib (none) 
+ * (created from redlib_none_c.ld (LPCXpresso v3.6.2 [Build 279] [29/01/2011] ) on Sun Jun 26 14:50:08 SGT 2011)
+*/
 
-
- GROUP(
- libcr_c.a
- libcr_eabihelpers.a
- )
+GROUP(libcr_c.a libcr_eabihelpers.a)

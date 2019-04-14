@@ -41,7 +41,7 @@ fir:
 	// Binary 0000 00 0 1101 0 0000 0101 0000 0000 0000
 	// Hex 1A05000
 
-	LDR R7, =x_store // R7 takes on x_store[0]
+	LDR R7, =x_store // R7 starts with x_store[0]
 
 LOOP: //for(j=0; j<N; j++)
 	SUBS R5, #1 // To increment j and set flag
@@ -97,7 +97,7 @@ LOOP2: //for(j=N-1; j>0; j--)
 	// Binary 0001 10  00 0 000 000000000000 0001 0010
 	// Hex 18000012
 
-	LDR R7, =x_store // R7 takes on x_store[0]
+	LDR R7, =x_store // R7 takes all of x_store values
 
 	STR R2, [R7] //x_store[0] = x_n;
 	// Binary 0000 01 0 1 0 0 0 0 0111 0010 0000 0000 0000
